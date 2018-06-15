@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    
+    background:#2E9CE6;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color: black;
+}
+ul {
+    list-style-type:none;
+    margin:0 0 2em 0;
+    padding:0;
+}
+ul li {
+    display:inline;
+    margin-right: 30px;
+}
+ul li a {
+    font-size: 1.5em;
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
+div {
+    text-align: center;
+    
+}
+
+
+.textbox { 
+    background-color: antiquewhite;
+    -moz-border-radius-topright: 30px;
+    -webkit-border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    -moz-border-radius-bottomleft: 30px;
+    -webkit-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid #848484;
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-right:15px; 
+    padding-left:15px; 
+    display: inline-block;
+    cursor: pointer;
+    color: brown;
+    font-family:  serif;
+    size: 19px;
+    
+  } 
+  
+  input.submit {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 9px 18px;
+    font-family: Arial;
+    font-size: 16px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #ff8c00 5%, #ce7910 100%);
+    box-shadow: 0px 10px 14px -7px #616174;
+}
+input.submit:hover {
+    background: linear-gradient(180deg, #06049e 5%, #060490 100%);
+}
+input.submit:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
